@@ -1,18 +1,29 @@
-.content {
-  text-align: justify;
-  margin-top: 25px;
+.demo-container {
+    float: left;
 }
 
-#tabs {
-  margin-top: 60px;
+#data-grid-demo {
+  max-width: 70%;
+  min-height: 700px;
+  margin-left: 10%;
+  float: right;
 }
 
-.caption {
-  font-size: 16px;
-  padding-bottom: 3px;
-  padding-left: 10px;
+#gridDeleteSelected {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  margin: 1px;
+  top: 0;
 }
 
-.left-aligned {
-  text-align: left;
+#gridDeleteSelected .dx-button-text {
+  line-height: 0;
+}
+
+#page-name {
+    position: relative;
+    font-size: 25px;
+    top: 20px;
+    z-index: 9999;
 }
